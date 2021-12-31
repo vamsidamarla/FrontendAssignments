@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post">
+        <div>
+            <label>username</label>
+            <input type="text" value="username" name="user">
+        </div>
+        <div>
+            <label>password</label>
+            <input type="password" value="password" name="passcode">
+        </div>
+        <div>
+            <span>Gender :</span>
+            <input type="radio" value="male" name="gender"  checked>
+            <label>Male</label>
+            <input type="radio" value="female" name="gender">
+            <label>Female</label>
+        </div>
+        <div>
+            <span>languages:</span>
+            <input type="checkbox" value="java" name="java" checked>
+            <label>java</label>
+
+            <input type="checkbox" value="css" name="css">
+            <label>css</label>
+
+            <input type="checkbox" value="html" name="html">
+            <label>html</label>
+        </div>
+        <div>
+            <input type="submit" value="save">
+            <input type="reset" value="reset">
+        </div>
+        <div>
+            <label>places</label>
+            <select>
+                <option value="tm">tamilnadu</option>
+                <option value="ts" selected>telangana</option>
+                <option value="kl">kerala</option>
+                <option value="jk">jammu and kashmir</option>
+            </select>
+        </div>
+        <div>
+            <textarea name="description" rows="5" cols="20">description</textarea>
+        </div>
+        <div>
+            <label>file upload : </label>
+            <input type="file" multiple name="file" value="file">
+        </div>
+        <div>
+            <label>select date</label>
+            <input type="date" name="date" value="date">
+        </div>
+    </form>
+</body>
+</html>
